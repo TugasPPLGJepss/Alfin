@@ -1,68 +1,79 @@
 body{
     margin: 0;
 }
-nav {
+nav{
     display: flex;
     justify-content: space-between;
 }
 
-nav ul {
+nav ul{
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 2rem;   
 }
-
 nav a{
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 header{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 1rem;
 }
-
-nav a:hover {
-    color: gold;
+nav a:hover{
+    color: rgb(255, 217, 0);
 }
 .hero{
-    font-family: 'Poppins', sans-serif;
-     background: #020024;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #020024;
      background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(116, 1, 91) 35%, rgb(255, 0, 157) 100%);
-      margin: 0;
-      padding: 3rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100px;
+    padding: 3rem;
 }
-img{
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                object-fit: cover;
-                margin-right: 2rem;
+.hero img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-right: 8rem;
+    
 }
-.intro a{
-    background-color: black;
+li{
     color: white;
-    padding: 5px;
-    text-decoration: none;
 }
 .skill-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1rem;
-
 }
-
-.skill {
-background-color: #ddd;
-padding: 1rem;
-text-align: center;
-border-radius: 8px;
+.skill{
+    background: #5b03ff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
 }
-.container {
-    background-color: antiquewhite;
-    height: 50px;
+   
+
+.container{
+    background-color: rgb(255, 0, 157);
+    padding: 25px;
+    margin-right: 3rem;
+    margin: 1rem;
+}
+.container h2,h3{
+    margin: 0;
+}
+h2{
+    margin-top: 0;
+}
+i{
+    margin-left: 1rem;
+    
+}
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    margin-top: 2rem;
 }
